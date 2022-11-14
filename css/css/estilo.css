@@ -1,0 +1,99 @@
+body{
+background-image: url(../imagens/imagen-fundo.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+display: flex;
+background-position: center;
+display: flex;
+justify-content: center;
+align-items: center;
+min-height: 100vh;
+padding: 30px;
+color: aliceblue;
+
+}
+
+.cartao{
+    width: 600px;
+    border: 2px solid #e126d9;
+    border-radius: 10px;
+    overflow: hidden;
+
+}
+
+
+ 
+.cartao .informacaoinicial{
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cartao .informacaoinicial .inicio{
+   font-size: 30px;
+    color: red;
+}
+
+.cartao .informacaoinicial .motivos{
+    color: red;
+}
+
+.cartao .conteudo{
+    margin-top: 15px;
+
+}
+
+.cartao .abas{
+    display: flex;
+}
+
+.cartao .abas .aba{
+    width: 33%;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+    cursor: pointer;
+}
+
+.cartao .abas img{
+    width: 150px;
+    height: 100px;
+    padding-left: 10px;
+    padding-right: 30px;
+}
+
+.cartao .abas .aba.selecionada{
+    background-color: #262626;
+}
+
+.cartao .informacao-abas{
+    background-color: #262626;
+}
+
+.cartao .abas .aba:hover{
+    background-color: #501616;
+}
+
+.informacao-abas .informacao{
+    min-height: 260px;
+    padding: 15px;
+    display: none;
+}
+
+.informacao-abas .informacao.selecionada{
+    display: block;
+}
+
+.informacao-abas .sub-titulo{
+    font-size: 22px;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+.informacao-abas .descricao{
+    font-size: 20px;
+    max-height: 180px;
+    overflow-y: auto;
+}
+
